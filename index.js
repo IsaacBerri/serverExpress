@@ -17,5 +17,5 @@ connectDB();
 
 
 app.listen(port, () => {
-  console.log(`The service is working in the port ${port}`);
+  console.log(`Example app listening at http://localhost:${port}`);
 });
