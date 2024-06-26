@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: (origin, callback) => {
-      const ACEPTED_ORIGINS = ["https://app-countries2.vercel.app/"];
+      const ACEPTED_ORIGINS = ["https://app-countries2.vercel.app"];
 
       if (ACEPTED_ORIGINS.includes(origin)) {
         return callback(null, true);
